@@ -117,41 +117,26 @@ cool_lector2.courses_attached += ['Python', 'Git']
 
 # Выставление оценок студентам
 
-# cool_mentor.rate_st(best_student, 'Python', 1)
-# cool_mentor.rate_st(best_student, 'Git', 7)
-# cool_mentor.rate_st(best_student, 'Python', 3)
-# cool_mentor.rate_st(best_student, 'Git', 9)
-# cool_mentor.rate_st(best_student2, 'Python', 5)
-# cool_mentor.rate_st(best_student2, 'Git', 2)
-# cool_mentor.rate_st(best_student2, 'Python', 6)
-# cool_mentor.rate_st(best_student2, 'Git', 3)
-#
-# # Выставление оценок лекторам
-#
-# best_student.rate_lec(cool_lector, 'Git', 3)
-# best_student.rate_lec(cool_lector, 'Git', 5)
-# best_student.rate_lec(cool_lector, 'Python', 10)
-# best_student.rate_lec(cool_lector, 'Python', 8)
-# best_student.rate_lec(cool_lector2, 'Git', 1)
-# best_student.rate_lec(cool_lector2, 'Git', 3)
-# best_student.rate_lec(cool_lector2, 'Python', 0)
-# best_student.rate_lec(cool_lector2, 'Python', 3)
-#
-# print(cool_lector.grades)
-# print(best_student.grades)
+cool_mentor.rate_st(best_student, 'Python', 1)
+cool_mentor.rate_st(best_student, 'Git', 7)
+cool_mentor.rate_st(best_student, 'Python', 3)
+cool_mentor.rate_st(best_student, 'Git', 9)
+cool_mentor.rate_st(best_student2, 'Python', 5)
+cool_mentor.rate_st(best_student2, 'Git', 2)
+cool_mentor.rate_st(best_student2, 'Python', 6)
+cool_mentor.rate_st(best_student2, 'Git', 3)
 
-# cool_lector.av_mark_lec()
-# cool_lector2.av_mark_lec()
-# print(cool_lector.__str__())
-# print(cool_lector2.__str__())
-# cool_lector2 > cool_lector
+# Выставление оценок лекторам
 
-#best_student.av_mark_st()
-#print (best_student.__str__())
-#best_student2.av_mark_st()
-#print (best_student2.__str__())
+best_student.rate_lec(cool_lector, 'Git', 3)
+best_student.rate_lec(cool_lector, 'Git', 5)
+best_student.rate_lec(cool_lector, 'Python', 10)
+best_student.rate_lec(cool_lector, 'Python', 8)
+best_student.rate_lec(cool_lector2, 'Git', 1)
+best_student.rate_lec(cool_lector2, 'Git', 3)
+best_student.rate_lec(cool_lector2, 'Python', 0)
+best_student.rate_lec(cool_lector2, 'Python', 3)
 
-# best_student > best_student2
+print(cool_lector.grades)
+print(best_student.grades)
 
-# cool_mentor.av_mark_lec()
-# print (cool_mentor.__str__())
